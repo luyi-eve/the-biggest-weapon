@@ -37,7 +37,14 @@
             .w3-third img:hover{opacity: 1}
             .w3-third {width: 50%}
         </style>
-        
+
+        <!--Disable inherited columns gap by changing it from 2rem to 1rem-->
+        <style>
+            .columns.is-variable.is-8 {
+            --columnGap: 1rem;
+            }
+        </style>
+
         <!--BG Color -->
         <style>
             .bg-color {
