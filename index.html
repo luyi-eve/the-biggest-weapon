@@ -57,27 +57,25 @@
         <!--Text Style-->
         <style>
             h1.headline {
-                font-family: DM Serif Display;
+                font-family: "DM Serif Display";
                 font-size: 4rem;
-                font-weight: 800px;
                 line-height: 1em;
                 text-align:center;
                 color: #423737;
                 margin-bottom: 18px;
-                margin-top: 5px;
-                /**-webkit-text-stroke: 1px black;**/
+                margin-top: 0;
             }
 
             h2.subhead {
-                font-family: DM Serif Display;
-                font-size: 2rem;
-                font-weight: 800px;
+                font-family: "DM Serif Display";
+                font-size: 1.7rem;
                 line-height: 1.3em;
                 text-align:center;
                 color: #423737;
                 margin-bottom: 15px;
                 margin-top: 5px;
-                /**-webkit-text-stroke: 0.5px black;**/
+                padding-left:2rem;
+                padding-right:2rem;
             }
 
             .byline {
@@ -100,7 +98,7 @@
             }
 
             h2.title {
-                font-family: DM Serif Display;
+                font-family: "DM Serif Display";
                 font-size: 28px;
                 font-weight: 400px;
                 line-height: 2em;
@@ -114,7 +112,7 @@
             }
 
             h2.subtitle {
-                font-family: DM Serif Display;
+                font-family: "DM Serif Display";
                 font-size: 21px;
                 font-weight: 300;
                 line-height: 2em;
@@ -125,21 +123,25 @@
             }
 
             p.body-text {
-                font-size: 1.15rem;
+                font-size: 1.06rem;
                 line-height: 1.8em;
-                text-align:justify;
+                text-align:left;
                 margin-top:0px;
                 margin-bottom:15px;
+                padding-left:1.2rem;
+                padding-right:1.2rem;
             }
 
             p.bulletpoint {
                 font-size: 1rem;
-                text-align:justify;
+                text-align:left;
                 margin-bottom:10px;
+                padding-left:1.2rem;
+                padding-right:1.2rem;
             }
 
             p.caption {
-                font-family: Cormorant Garamond;
+                font-family: "Cormorant Garamond";
                 font-size: 1.15rem;
                 line-height: 1.4em;
                 text-align:center;
@@ -148,7 +150,7 @@
             }
 
             .findcode {
-                font-family: Cormorant Garamond;
+                font-family: "Cormorant Garamond";
                 font-size: 1.1rem;
                 line-height: 1.4em;
                 text-align:center;
@@ -159,6 +161,43 @@
             a {
                 color: #d8a479            
             }
+
+            @media only screen and (min-width: 40em){
+                h2.subhead {
+                    font-family: "DM Serif Display";
+                    font-size: 2rem;
+                    line-height: 1.3em;
+                    text-align:center;
+                    color: #423737;
+                    margin:auto auto;
+                    max-width: 45rem;
+                }
+
+                p.body-text {
+                    font-size: 1.15rem;
+                    line-height: 1.8em;
+                    text-align:left;
+                    margin-top:0px;
+                    margin-bottom:15px;
+                }
+
+                p.bulletpoint {
+                    font-size: 1rem;
+                    text-align:left;
+                    margin-bottom:10px;
+                }
+
+                .findcode {
+                    font-family: "Cormorant Garamond";
+                    font-size: 1.15rem;
+                    line-height: 1.4em;
+                    text-align:center;
+                    margin-top:0;
+                    margin-bottom:15px;
+                }
+
+            }
+
 
         </style>
 
@@ -342,7 +381,7 @@
         <div class="header">
             <h1 class="headline">The Biggest Weapon</h1>
             <h2 class="subhead">
-                How Russian crude oil shake the market <br> as Ukraine conflict looms?
+                How Russian crude oil shake the market as Ukraine conflict looms?
             </h2>
             <p class="byline">By Eve Lu</p>
             <p class="date">April 3, 2022</p>
